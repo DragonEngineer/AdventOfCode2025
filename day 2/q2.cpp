@@ -34,7 +34,6 @@ int main(int argc, char** argv)
 	while(1)
 	{
 		Range range;
-		char discarded;
 		ss >> range.lower;
 		ss.get();			// Discards the '-'
 		ss >> range.upper;
